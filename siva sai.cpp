@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 
 struct process
 {
@@ -27,7 +27,7 @@ void Arrival_Time_Sorting()
       }
 }
 
-void main()
+int main()
 {
       int i, time = 0, burst_time = 0, largest;
       char c;
